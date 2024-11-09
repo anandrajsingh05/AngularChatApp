@@ -47,6 +47,10 @@
  */
 import 'zone.js';  // Included with Angular CLI.
 
+// src/polyfills.ts
+(window as any).global = window;
+
+
 
 /***************************************************************************************************
  * APPLICATION IMPORTS

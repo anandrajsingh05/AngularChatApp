@@ -1,0 +1,9 @@
+<div class="chat-rooms">
+    <h2>Your Chat Rooms</h2>
+    <ul>
+      <li *ngFor="let room of chatRooms">
+        <a [routerLink]="['/chat', room.id]">{{ room.chatId }}</a>
+      </li>
+    </ul>
+  </div>
+  

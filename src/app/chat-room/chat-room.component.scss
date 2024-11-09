@@ -1,0 +1,27 @@
+@import 'src/styles';
+
+.chat-rooms {
+    h2 {
+      color: $primary-color;
+      margin-bottom: 15px;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        margin-bottom: 10px;
+  
+        a {
+          color: $secondary-color;
+          text-decoration: none;
+          &:hover {
+            color: $primary-color;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
